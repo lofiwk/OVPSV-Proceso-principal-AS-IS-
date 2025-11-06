@@ -1,0 +1,270 @@
+{
+  "actors": [
+    {
+      "id": "2e6b00c0-d42d-4ae8-9294-2614c45d5e92",
+      "text": "PcD",
+      "type": "istar.Actor",
+      "x": 116,
+      "y": 131,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "8b5dc9fa-24be-481f-a2e2-d201283cb5ce",
+          "text": "Mantener servicio esencial.",
+          "type": "istar.Goal",
+          "x": 420,
+          "y": 131,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8013945d-9f86-47fc-ba28-51d02eb8b0b2",
+          "text": "Iniciar solicitud",
+          "type": "istar.Task",
+          "x": 138,
+          "y": 256,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8bbd2eeb-38ec-44ac-b353-46e03b648251",
+          "text": "entregar info",
+          "type": "istar.Task",
+          "x": 299,
+          "y": 253,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e8e7ece3-f71c-48e1-bf1f-701c598943c5",
+          "text": "consentir",
+          "type": "istar.Task",
+          "x": 455,
+          "y": 257,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3919b7dc-75b8-4622-8c07-cc86a59301d0",
+          "text": "Sentirse validado, protegido",
+          "type": "istar.Quality",
+          "x": 320,
+          "y": 387,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "c9a2b352-381a-4115-9248-dc6155643a60",
+      "text": "Intercesor",
+      "type": "istar.Actor",
+      "x": 747,
+      "y": 124,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "2b24efa2-8626-4a3f-a81c-d7eac24744ed",
+          "text": "Mediar solución",
+          "type": "istar.Goal",
+          "x": 952,
+          "y": 129,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5e13fab4-35ef-4f76-bd63-019b3afc1c57",
+          "text": "Traducir necesidad",
+          "type": "istar.Task",
+          "x": 767,
+          "y": 212,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6a04ff70-c4ad-48a6-8f96-32027e84d367",
+          "text": "negociar alternativas",
+          "type": "istar.Task",
+          "x": 980,
+          "y": 223,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b3b91466-3283-4bd6-80ae-5e6df73604a3",
+          "text": "Eficiencia ética",
+          "type": "istar.Quality",
+          "x": 856,
+          "y": 294,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "327a4387-54a3-4f08-b2e0-9b3683555be9",
+      "text": "Curador Vital",
+      "type": "istar.Actor",
+      "x": 643,
+      "y": 473,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "72b2c7aa-f786-46b6-a0bd-d3202ca4c1e8",
+          "text": "Garantizar equidad",
+          "type": "istar.Goal",
+          "x": 793,
+          "y": 489.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "20851d5b-26fe-4cf4-956c-114eca3f452c",
+          "text": "Evaluar caso",
+          "type": "istar.Task",
+          "x": 643,
+          "y": 569,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6dba05f4-766e-4784-8364-89a57b10c6a9",
+          "text": "emitir directriz ética",
+          "type": "istar.Task",
+          "x": 901,
+          "y": 569,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "694810c1-0bd3-49cb-a47c-419378f9d39e",
+          "text": "Justicia, dignidad",
+          "type": "istar.Quality",
+          "x": 789,
+          "y": 633,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "89fa99d8-f30a-418e-a6d9-deebd0a7b533",
+      "type": "istar.ContributionLink",
+      "source": "8013945d-9f86-47fc-ba28-51d02eb8b0b2",
+      "target": "3919b7dc-75b8-4622-8c07-cc86a59301d0",
+      "label": "make"
+    },
+    {
+      "id": "9d511d10-f019-498f-b815-2765fc00413e",
+      "type": "istar.ContributionLink",
+      "source": "8bbd2eeb-38ec-44ac-b353-46e03b648251",
+      "target": "3919b7dc-75b8-4622-8c07-cc86a59301d0",
+      "label": "make"
+    },
+    {
+      "id": "0f0324e5-2527-459b-9b6f-ed6932a1abb9",
+      "type": "istar.ContributionLink",
+      "source": "e8e7ece3-f71c-48e1-bf1f-701c598943c5",
+      "target": "3919b7dc-75b8-4622-8c07-cc86a59301d0",
+      "label": "make"
+    },
+    {
+      "id": "de616d6f-a26b-4908-a9d3-85e36cbebb14",
+      "type": "istar.QualificationLink",
+      "source": "3919b7dc-75b8-4622-8c07-cc86a59301d0",
+      "target": "8b5dc9fa-24be-481f-a2e2-d201283cb5ce"
+    },
+    {
+      "id": "0c2b7931-74fe-4294-97ca-d577d04e38cb",
+      "type": "istar.QualificationLink",
+      "source": "b3b91466-3283-4bd6-80ae-5e6df73604a3",
+      "target": "2b24efa2-8626-4a3f-a81c-d7eac24744ed"
+    },
+    {
+      "id": "ee518cde-3793-450a-9560-b2b63ff5d7d6",
+      "type": "istar.ContributionLink",
+      "source": "5e13fab4-35ef-4f76-bd63-019b3afc1c57",
+      "target": "b3b91466-3283-4bd6-80ae-5e6df73604a3",
+      "label": "help"
+    },
+    {
+      "id": "02b2c0ef-8f2d-41d0-8908-b44a70ddb086",
+      "type": "istar.ContributionLink",
+      "source": "6a04ff70-c4ad-48a6-8f96-32027e84d367",
+      "target": "b3b91466-3283-4bd6-80ae-5e6df73604a3",
+      "label": "help"
+    },
+    {
+      "id": "c2360df4-4025-4074-91c0-30d00304d361",
+      "type": "istar.QualificationLink",
+      "source": "694810c1-0bd3-49cb-a47c-419378f9d39e",
+      "target": "72b2c7aa-f786-46b6-a0bd-d3202ca4c1e8"
+    },
+    {
+      "id": "8c0836ad-3f1b-485f-a185-8528157dc5ce",
+      "type": "istar.ContributionLink",
+      "source": "20851d5b-26fe-4cf4-956c-114eca3f452c",
+      "target": "694810c1-0bd3-49cb-a47c-419378f9d39e",
+      "label": "make"
+    },
+    {
+      "id": "0009eb59-2614-421e-8515-23bf7deafc6f",
+      "type": "istar.ContributionLink",
+      "source": "6dba05f4-766e-4784-8364-89a57b10c6a9",
+      "target": "694810c1-0bd3-49cb-a47c-419378f9d39e",
+      "label": "make"
+    }
+  ],
+  "display": {
+    "8b5dc9fa-24be-481f-a2e2-d201283cb5ce": {
+      "width": 115.4140625,
+      "height": 51.9453125
+    },
+    "8013945d-9f86-47fc-ba28-51d02eb8b0b2": {
+      "width": 109.4140625,
+      "height": 40.9453125
+    },
+    "8bbd2eeb-38ec-44ac-b353-46e03b648251": {
+      "width": 107.4140625,
+      "height": 46.9453125
+    },
+    "e8e7ece3-f71c-48e1-bf1f-701c598943c5": {
+      "width": 112.4140625,
+      "height": 42.9453125
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Thu, 06 Nov 2025 16:08:30 GMT",
+  "diagram": {
+    "width": 1252,
+    "height": 828,
+    "name": "Welcome Model",
+    "customProperties": {
+      "Description": "Welcome to the piStar tool version 2.1.0, released on November, 2021! This model describes some of the recent improvements in the tool. Click on the purple elements for further info.\n\nFor help using this tool, please check the Help menu above"
+    }
+  }
+}
