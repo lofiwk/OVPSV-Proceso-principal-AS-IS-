@@ -1,0 +1,573 @@
+{
+  "actors": [
+    {
+      "id": "actor-pcd",
+      "text": "PcD",
+      "type": "istar.Actor",
+      "x": 100,
+      "y": 100,
+      "customProperties": {
+        "Description": "Persona con Discapacidad"
+      },
+      "nodes": [
+        {
+          "id": "goal-mantener-servicio",
+          "text": "Mantener servicio esencial",
+          "type": "istar.Goal",
+          "x": 150,
+          "y": 150,
+          "customProperties": {
+            "Description": "Meta principal del PcD"
+          }
+        },
+        {
+          "id": "goal-evitar-corte",
+          "text": "Evitar corte de servicio esencial",
+          "type": "istar.Goal",
+          "x": 308,
+          "y": 151,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-solicitar-asistencia",
+          "text": "Solicitar asistencia a tiempo",
+          "type": "istar.Task",
+          "x": 130,
+          "y": 245,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-proporcionar-info",
+          "text": "Proporcionar información veraz",
+          "type": "istar.Task",
+          "x": 343,
+          "y": 244,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "quality-recibir-atencion",
+          "text": "Recibir atención rápida",
+          "type": "istar.Quality",
+          "x": 202,
+          "y": 337,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "actor-intercesor",
+      "text": "Intercesor",
+      "type": "istar.Actor",
+      "x": 600,
+      "y": 100,
+      "customProperties": {
+        "Description": "Traduce y negocia"
+      },
+      "nodes": [
+        {
+          "id": "goal-mediar-solucion",
+          "text": "Mediar solución",
+          "type": "istar.Goal",
+          "x": 650,
+          "y": 150,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "goal-validar-caso",
+          "text": "Validar caso",
+          "type": "istar.Goal",
+          "x": 636,
+          "y": 236,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-traducir-necesidad",
+          "text": "Traducir necesidad",
+          "type": "istar.Task",
+          "x": 629,
+          "y": 309,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-negociar",
+          "text": "Negociar alternativas",
+          "type": "istar.Task",
+          "x": 756,
+          "y": 234,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-alcanzar-acuerdo",
+          "text": "Alcanzar acuerdo",
+          "type": "istar.Task",
+          "x": 895,
+          "y": 237,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "quality-eficiencia-etica",
+          "text": "Eficiencia ética",
+          "type": "istar.Quality",
+          "x": 809,
+          "y": 328,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "actor-curador",
+      "text": "Curador Vital",
+      "type": "istar.Actor",
+      "x": 1100,
+      "y": 100,
+      "customProperties": {
+        "Description": "Garantiza ética"
+      },
+      "nodes": [
+        {
+          "id": "goal-garantizar-equidad",
+          "text": "Garantizar equidad",
+          "type": "istar.Goal",
+          "x": 1150,
+          "y": 150,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-evaluar-caso",
+          "text": "Evaluar caso",
+          "type": "istar.Task",
+          "x": 1122,
+          "y": 228,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-emitir-directriz",
+          "text": "Emitir directriz ética",
+          "type": "istar.Task",
+          "x": 1257,
+          "y": 225,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "quality-justicia-dignidad",
+          "text": "Justicia, dignidad",
+          "type": "istar.Quality",
+          "x": 1198,
+          "y": 314,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "actor-proveedor",
+      "text": "Proveedor",
+      "type": "istar.Actor",
+      "x": 288,
+      "y": 508,
+      "customProperties": {
+        "Description": "Proveedor de Servicio Esencial"
+      },
+      "nodes": [
+        {
+          "id": "goal-mantener-operacion",
+          "text": "Mantener operación rentable",
+          "type": "istar.Goal",
+          "x": 396,
+          "y": 558,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-ejecutar-protocolo",
+          "text": "Ejecutar protocolo de cobranza",
+          "type": "istar.Task",
+          "x": 499,
+          "y": 634,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-ofrecer-alternativas",
+          "text": "Ofrecer alternativas de pago",
+          "type": "istar.Task",
+          "x": 288,
+          "y": 636,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "quality-confianza",
+          "text": "Confianza en el sistema",
+          "type": "istar.Quality",
+          "x": 402,
+          "y": 738,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "actor-gobierno",
+      "text": "Gobierno",
+      "type": "istar.Actor",
+      "x": 805,
+      "y": 527,
+      "customProperties": {
+        "Description": "Norma y audita"
+      },
+      "nodes": [
+        {
+          "id": "goal-proteger-vulnerables",
+          "text": "Proteger población vulnerable",
+          "type": "istar.Goal",
+          "x": 881,
+          "y": 559,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-normar",
+          "text": "Normar",
+          "type": "istar.Task",
+          "x": 811,
+          "y": 638,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "task-auditar",
+          "text": "Auditar cumplimiento",
+          "type": "istar.Task",
+          "x": 963,
+          "y": 636,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "quality-marco-normativo",
+          "text": "Marco normativo claro",
+          "type": "istar.Quality",
+          "x": 871,
+          "y": 720,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "023d7fbd-fc83-42e8-ad68-94379873f446",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-mantener-servicio",
+      "target": "goal-evitar-corte"
+    },
+    {
+      "id": "c2352a58-221c-4890-af69-737cf6e314ec",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-evitar-corte",
+      "target": "task-solicitar-asistencia"
+    },
+    {
+      "id": "91edd399-dce5-4e20-bbd0-a608220e9c1f",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-evitar-corte",
+      "target": "task-proporcionar-info"
+    },
+    {
+      "id": "a204b35f-ea63-41a8-b0da-b2f69e445b4f",
+      "type": "istar.ContributionLink",
+      "source": "task-solicitar-asistencia",
+      "target": "quality-recibir-atencion",
+      "label": "help"
+    },
+    {
+      "id": "71a5b4e0-f71b-414e-a6f7-5c97fb83cbe8",
+      "type": "istar.ContributionLink",
+      "source": "task-proporcionar-info",
+      "target": "quality-recibir-atencion",
+      "label": "help"
+    },
+    {
+      "id": "889486a1-a783-44b7-ac06-cebe982927cd",
+      "type": "istar.QualificationLink",
+      "source": "quality-recibir-atencion",
+      "target": "goal-evitar-corte"
+    },
+    {
+      "id": "6f20efd6-05db-41e5-b136-96428c1eca1b",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-mediar-solucion",
+      "target": "goal-validar-caso"
+    },
+    {
+      "id": "13830458-8233-472b-b0cb-4ee9bb3d4123",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-validar-caso",
+      "target": "task-traducir-necesidad"
+    },
+    {
+      "id": "159040e8-7689-421e-acd5-26f28eeaf17e",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-validar-caso",
+      "target": "task-negociar"
+    },
+    {
+      "id": "2efaf84b-881a-4e5a-9831-635ccfadb61e",
+      "type": "istar.AndRefinementLink",
+      "source": "task-negociar",
+      "target": "task-alcanzar-acuerdo"
+    },
+    {
+      "id": "c454078c-ce32-43f2-9d65-bbf523d57bed",
+      "type": "istar.ContributionLink",
+      "source": "task-traducir-necesidad",
+      "target": "quality-eficiencia-etica",
+      "label": "help"
+    },
+    {
+      "id": "11b527b7-d0dd-487c-a74f-ef40969a166a",
+      "type": "istar.ContributionLink",
+      "source": "task-alcanzar-acuerdo",
+      "target": "quality-eficiencia-etica",
+      "label": "make"
+    },
+    {
+      "id": "19575f6f-2653-47a3-836e-5fea1f62d85a",
+      "type": "istar.QualificationLink",
+      "source": "quality-eficiencia-etica",
+      "target": "goal-mediar-solucion"
+    },
+    {
+      "id": "f765f31b-7a8c-4372-a19f-b5cf4986360f",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-garantizar-equidad",
+      "target": "task-evaluar-caso"
+    },
+    {
+      "id": "c6953296-29ff-4821-828e-09b08bc588ac",
+      "type": "istar.AndRefinementLink",
+      "source": "task-evaluar-caso",
+      "target": "task-emitir-directriz"
+    },
+    {
+      "id": "6ac15108-ba9f-4617-bb33-87a08e29078b",
+      "type": "istar.ContributionLink",
+      "source": "task-evaluar-caso",
+      "target": "quality-justicia-dignidad",
+      "label": "help"
+    },
+    {
+      "id": "77a534b0-705b-4e61-b0d1-2972ec830e0e",
+      "type": "istar.ContributionLink",
+      "source": "task-emitir-directriz",
+      "target": "quality-justicia-dignidad",
+      "label": "make"
+    },
+    {
+      "id": "ce16b304-c2c6-404b-9475-3ac10170eb0c",
+      "type": "istar.QualificationLink",
+      "source": "quality-justicia-dignidad",
+      "target": "goal-garantizar-equidad"
+    },
+    {
+      "id": "258fab85-aa26-4522-a975-f530748c0c0a",
+      "type": "istar.OrRefinementLink",
+      "source": "goal-mantener-operacion",
+      "target": "task-ejecutar-protocolo"
+    },
+    {
+      "id": "fd7af992-6aa8-403f-af4e-c197b9962a83",
+      "type": "istar.OrRefinementLink",
+      "source": "goal-mantener-operacion",
+      "target": "task-ofrecer-alternativas"
+    },
+    {
+      "id": "808bbd2d-fc12-48db-8b88-897fae277215",
+      "type": "istar.ContributionLink",
+      "source": "task-ofrecer-alternativas",
+      "target": "quality-confianza",
+      "label": "make"
+    },
+    {
+      "id": "2dd2e5fd-7ae5-4d8d-9fed-6cdd56bcedf5",
+      "type": "istar.QualificationLink",
+      "source": "quality-confianza",
+      "target": "goal-mantener-operacion"
+    },
+    {
+      "id": "cee9b5c0-41c9-4370-bb6f-7656e55b3162",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-proteger-vulnerables",
+      "target": "task-normar"
+    },
+    {
+      "id": "be44a640-4f02-4f02-8983-1d256e40ebea",
+      "type": "istar.AndRefinementLink",
+      "source": "goal-proteger-vulnerables",
+      "target": "task-auditar"
+    },
+    {
+      "id": "c00de30e-6ca4-4256-9c80-870a65ee0bab",
+      "type": "istar.ContributionLink",
+      "source": "task-normar",
+      "target": "quality-marco-normativo",
+      "label": "make"
+    },
+    {
+      "id": "b77a399a-b411-49af-bb83-12cb94be2989",
+      "type": "istar.ContributionLink",
+      "source": "task-auditar",
+      "target": "quality-marco-normativo",
+      "label": "help"
+    },
+    {
+      "id": "fee8b840-e63c-4c5e-937b-3f3dea5b3371",
+      "type": "istar.QualificationLink",
+      "source": "quality-marco-normativo",
+      "target": "goal-proteger-vulnerables"
+    }
+  ],
+  "display": {
+    "goal-mantener-servicio": {
+      "width": 110.015625,
+      "height": 50.9453125
+    },
+    "goal-evitar-corte": {
+      "width": 120.015625,
+      "height": 56.9453125
+    },
+    "task-solicitar-asistencia": {
+      "width": 115.015625,
+      "height": 50.9453125
+    },
+    "task-proporcionar-info": {
+      "width": 120.015625,
+      "height": 55.9453125
+    },
+    "quality-recibir-atencion": {
+      "width": 105.015625,
+      "height": 50.9453125
+    },
+    "goal-mediar-solucion": {
+      "width": 95.015625,
+      "height": 45.9453125
+    },
+    "goal-validar-caso": {
+      "width": 85.015625,
+      "height": 40.9453125
+    },
+    "task-traducir-necesidad": {
+      "width": 105.015625,
+      "height": 47.9453125
+    },
+    "task-negociar": {
+      "width": 110.015625,
+      "height": 48.9453125
+    },
+    "task-alcanzar-acuerdo": {
+      "width": 105.015625,
+      "height": 47.9453125
+    },
+    "quality-eficiencia-etica": {
+      "width": 95.015625,
+      "height": 45.9453125
+    },
+    "goal-garantizar-equidad": {
+      "width": 105.015625,
+      "height": 47.9453125
+    },
+    "task-evaluar-caso": {
+      "width": 90.015625,
+      "height": 42.9453125
+    },
+    "task-emitir-directriz": {
+      "width": 105.015625,
+      "height": 47.9453125
+    },
+    "quality-justicia-dignidad": {
+      "width": 100.015625,
+      "height": 45.9453125
+    },
+    "goal-mantener-operacion": {
+      "width": 120.015625,
+      "height": 50.9453125
+    },
+    "task-ejecutar-protocolo": {
+      "width": 130.015625,
+      "height": 55.9453125
+    },
+    "task-ofrecer-alternativas": {
+      "width": 125.015625,
+      "height": 52.9453125
+    },
+    "quality-confianza": {
+      "width": 105.015625,
+      "height": 50.9453125
+    },
+    "goal-proteger-vulnerables": {
+      "width": 125.015625,
+      "height": 53.9453125
+    },
+    "task-normar": {
+      "width": 75.015625,
+      "height": 38.9453125
+    },
+    "task-auditar": {
+      "width": 105.015625,
+      "height": 47.9453125
+    },
+    "quality-marco-normativo": {
+      "width": 110.015625,
+      "height": 48.9453125
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 10 Nov 2025 15:35:52 GMT",
+  "diagram": {
+    "width": 1500,
+    "height": 1100,
+    "customProperties": {
+      "Description": "Diagrama de Racionalidades Estratégicas (SR) - OVPSV: Oficina Virtual de Protección y Sustentación Vital"
+    }
+  }
+}
