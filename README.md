@@ -1,44 +1,20 @@
-﻿# Proyecto_Fullstack_2025-10-23
+OVPSV propone un paradigma virtual para proteger servicios esenciales (agua, luz, etc.) de personas con discapacidad en Chile ante moras, mediante intercesores que negocian pausas éticas con proveedores, evitando cortes reactivos.  OVPSV no es software ni entidad; es un paradigma nuevo operado por FCHD (Fundación Chilena para la Discapacidad, una ONG independiente aliada con gobierno). Esta elección deriva de la necesidad de no generar autoauditoría/conflicto (como lo sería integrar este sistema a SENADIS).
 
-creado: 23/10/25 13:30:08
+Actores (5):
 
-rutas:
-  raiz:          C:\Users\loren\Desktop\Proyecto_Fullstack_2025-10-23_1
-  frontend:      C:\Users\loren\Desktop\Proyecto_Fullstack_2025-10-23_1\client
-  backend:       C:\Users\loren\Desktop\Proyecto_Fullstack_2025-10-23_1\server
-  documentacion: C:\Users\loren\Desktop\Proyecto_Fullstack_2025-10-23_1\docs
+Habitante Vulnerable (PcD): Inicia solicitud; registrado en Registro Nacional de la Discapacidad (RND).
+Intercesor (FCHD): Traduce necesidad, negocia prórrogas/planes.
+Curador Vital (FCHD): Valida ética, emite directrices, monitorea equidad.
+Proveedor (externo): Ofrece alternativas, suspende cortes temporalmente.
+Gobierno (externo): Norma, audita cumplimiento.
 
----
+BPMN As-Is: Diagrama el contexto actual defectuoso (3 procesos reactivos/cortantes). 
+To-Be: Mejora específica de cómo debiera ser. En ella se basan los casos de uso y dominio.
 
-estructura:
+Caso 1: Canal estándar (call center/portal): Habitante solicita asistencia; Proveedor gateway (pago: redirige; no: finaliza sin resolver, registra falla); genera corte, notifica; Gobierno audita.
 
-/client
-  html, css, js. lo usual.
-  /css - estilos
-  /js - scripts
-  /assets/images - imagenes si es que las hay
+Caso 2: Llamada sin verificación PcD: Habitante proporciona info; Proveedor aplica cobranza, gateway relevancia (no: descarta excepción, confirma corte; sí: registra compromiso); Gobierno recibe notificación y audita ex post.
 
-/server
-  el backend. node probablemente.
-  server.js - arranca desde aca
-  /routes - endpoints cuando los necesites
+Caso 3: Gestión crítica manual post-corte: Habitante reclama; Gobierno valida burocráticamente (solicita antecedentes usuario/proveedor), evalúa vulnerabilidad (sí: suspende corte; no: negativo); Proveedor proporciona info, recibe orden.
 
-/docs
-  diagramas, anotaciones, lo que sea que necesites documentar
-
-.gitignore
-  ya sabes para que es
-
----
-
-proposito:
-[completa esto cuando sepas que estas haciendo]
-
-uso:
-  abre en vscode
-  edita /client para frontend
-  /server si necesitas backend
-  guarda cosas en /docs
-
----
-generado automaticamente. obviamente.
+El bpmn de mejora se correlaciona con el caso 1 (canal estándar reactivo): mejora proactiva vía OVPSV (solicitud virtual, validación vulnerabilidad, pausa ética, plan flexible), evita finalización sin resolver/corte.
