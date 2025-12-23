@@ -29,9 +29,6 @@ export default function RequestsList() {
   return (
     <div style={{ minHeight: "100vh", padding: 16, background: "#111", color: "#eee" }}>
       <h1 style={{ margin: 0, color: "#00ff66" }}>OVPSV — Solicitudes</h1>
-      <p style={{ marginTop: 8, color: "#ff3b3b" }}>
-        Diseño deliberadamente simple (foco: datos).
-      </p>
 
       <table style={{ width: "100%", borderCollapse: "collapse", marginTop: 16 }}>
         <thead>
