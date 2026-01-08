@@ -19,7 +19,7 @@ export class AuthService {
       password: hashedPassword,
     });
 
-    const payload = { username: user.username, sub: user._id ? user._id.toString() : user.id };
+    const payload = { username: user.username, sub: user._id ? user._id.toString() : user._id };
     return {
       access_token: this.jwtService.sign(payload),
     };
@@ -36,7 +36,7 @@ export class AuthService {
       throw new UnauthorizedException('Invalid credentials');
     }
 
-    const payload = { username: user.username, sub: user._id ? user._id.toString() : user.id };
+    const payload = { username: user.username, sub: user._id ? user._id.toString() : user._id };
     return {
       access_token: this.jwtService.sign(payload),
     };
