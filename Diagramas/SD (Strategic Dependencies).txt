@@ -1,0 +1,428 @@
+{
+  "actors": [
+    {
+      "id": "41d80f4d-815f-4f74-8e7b-8524959edeee",
+      "text": "Gobierno",
+      "type": "istar.Actor",
+      "x": 428,
+      "y": 60,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "645286c7-10db-4c4d-bd79-854a19fdea9a",
+      "text": "Proveedor",
+      "type": "istar.Actor",
+      "x": 830,
+      "y": 366,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a",
+      "text": "Curador Vital",
+      "type": "istar.Role",
+      "x": 739,
+      "y": 753,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91",
+      "text": "Intercesor",
+      "type": "istar.Role",
+      "x": 184,
+      "y": 756,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "a80a95e6-f9fc-4bda-8c64-f4605e72967f",
+      "text": "Persona con Discapacidad",
+      "type": "istar.Actor",
+      "x": 82,
+      "y": 357,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "55269566-0ec0-4bde-94c4-7272fddf0e44",
+      "text": "Brindar contención emocional",
+      "type": "istar.Goal",
+      "x": 177,
+      "y": 533,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a80a95e6-f9fc-4bda-8c64-f4605e72967f",
+      "target": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91"
+    },
+    {
+      "id": "a9014a3b-837a-423f-9852-a7edf99b5e40",
+      "text": "Solicitar validación ética efectiva",
+      "type": "istar.Goal",
+      "x": 35,
+      "y": 529,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a80a95e6-f9fc-4bda-8c64-f4605e72967f",
+      "target": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91"
+    },
+    {
+      "id": "e1bfc612-7c92-4f53-965b-81b1c426eb2f",
+      "text": "Confianza en el sistema",
+      "type": "istar.Goal",
+      "x": 443,
+      "y": 632,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91",
+      "target": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a"
+    },
+    {
+      "id": "4f2bf699-0e52-4b58-8897-5e7b618c1451",
+      "text": "Obtener directrices de acción objetivas",
+      "type": "istar.Goal",
+      "x": 467,
+      "y": 852,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91",
+      "target": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a"
+    },
+    {
+      "id": "1b98d9e5-00d8-4b29-887d-dd0d04d0434c",
+      "text": "Requerir garantía ética",
+      "type": "istar.Goal",
+      "x": 826,
+      "y": 542,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a",
+      "target": "645286c7-10db-4c4d-bd79-854a19fdea9a"
+    },
+    {
+      "id": "356ec620-e309-4ca3-92ed-72cd7fa31e06",
+      "text": "Evitar corte de servicio vital",
+      "type": "istar.Goal",
+      "x": 669,
+      "y": 535,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a",
+      "target": "645286c7-10db-4c4d-bd79-854a19fdea9a"
+    },
+    {
+      "id": "b9c975bd-d530-4978-b1e0-9f09fb945e67",
+      "text": "Negociar prórrogas reales",
+      "type": "istar.Goal",
+      "x": 155,
+      "y": 117,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "41d80f4d-815f-4f74-8e7b-8524959edeee",
+      "target": "a80a95e6-f9fc-4bda-8c64-f4605e72967f"
+    },
+    {
+      "id": "f175d89f-b4f7-4ba6-9358-ef9fe377524a",
+      "text": "Proteger a la población vulnerable.",
+      "type": "istar.Goal",
+      "x": 297,
+      "y": 284,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "41d80f4d-815f-4f74-8e7b-8524959edeee",
+      "target": "a80a95e6-f9fc-4bda-8c64-f4605e72967f"
+    },
+    {
+      "id": "dea9d02c-febe-42bd-bd3a-a8a2b44bb504",
+      "text": "Garantizar marco notmativo",
+      "type": "istar.Goal",
+      "x": 724,
+      "y": 127,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "645286c7-10db-4c4d-bd79-854a19fdea9a",
+      "target": "41d80f4d-815f-4f74-8e7b-8524959edeee"
+    },
+    {
+      "id": "71d58a30-ad1f-4beb-8015-ccf01f0fae0c",
+      "text": "Auditar cumplimiento",
+      "type": "istar.Goal",
+      "x": 581,
+      "y": 298,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "645286c7-10db-4c4d-bd79-854a19fdea9a",
+      "target": "41d80f4d-815f-4f74-8e7b-8524959edeee"
+    }
+  ],
+  "links": [
+    {
+      "id": "a7796e37-2af1-4304-8fdb-22b4b999b9e9",
+      "type": "istar.DependencyLink",
+      "source": "71d58a30-ad1f-4beb-8015-ccf01f0fae0c",
+      "target": "41d80f4d-815f-4f74-8e7b-8524959edeee"
+    },
+    {
+      "id": "efec3302-37f9-4074-b45e-cf5b8171d30a",
+      "type": "istar.DependencyLink",
+      "source": "645286c7-10db-4c4d-bd79-854a19fdea9a",
+      "target": "71d58a30-ad1f-4beb-8015-ccf01f0fae0c"
+    },
+    {
+      "id": "920008da-fcf9-4279-a4a1-21b07d083455",
+      "type": "istar.DependencyLink",
+      "source": "dea9d02c-febe-42bd-bd3a-a8a2b44bb504",
+      "target": "41d80f4d-815f-4f74-8e7b-8524959edeee"
+    },
+    {
+      "id": "7f86a271-fcfa-4aaa-b189-e6b81bd79b40",
+      "type": "istar.DependencyLink",
+      "source": "645286c7-10db-4c4d-bd79-854a19fdea9a",
+      "target": "dea9d02c-febe-42bd-bd3a-a8a2b44bb504"
+    },
+    {
+      "id": "77290b5d-e28a-400e-b089-3e2957b408f8",
+      "type": "istar.DependencyLink",
+      "source": "f175d89f-b4f7-4ba6-9358-ef9fe377524a",
+      "target": "a80a95e6-f9fc-4bda-8c64-f4605e72967f"
+    },
+    {
+      "id": "7757f5bc-d89b-4f00-9fb8-7d763783e405",
+      "type": "istar.DependencyLink",
+      "source": "41d80f4d-815f-4f74-8e7b-8524959edeee",
+      "target": "f175d89f-b4f7-4ba6-9358-ef9fe377524a"
+    },
+    {
+      "id": "7f2141c7-955f-46bf-b4d4-a8de77711681",
+      "type": "istar.DependencyLink",
+      "source": "b9c975bd-d530-4978-b1e0-9f09fb945e67",
+      "target": "a80a95e6-f9fc-4bda-8c64-f4605e72967f"
+    },
+    {
+      "id": "b8985127-8d6a-4094-8476-ef4a1478ca63",
+      "type": "istar.DependencyLink",
+      "source": "41d80f4d-815f-4f74-8e7b-8524959edeee",
+      "target": "b9c975bd-d530-4978-b1e0-9f09fb945e67"
+    },
+    {
+      "id": "8f143159-5a32-4785-bafa-12c651a4cc52",
+      "type": "istar.DependencyLink",
+      "source": "356ec620-e309-4ca3-92ed-72cd7fa31e06",
+      "target": "645286c7-10db-4c4d-bd79-854a19fdea9a"
+    },
+    {
+      "id": "89354a39-ac7e-47c2-bcf7-4697716e76de",
+      "type": "istar.DependencyLink",
+      "source": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a",
+      "target": "356ec620-e309-4ca3-92ed-72cd7fa31e06"
+    },
+    {
+      "id": "65e7e1d1-c609-4694-9822-fa08fb66a19f",
+      "type": "istar.DependencyLink",
+      "source": "1b98d9e5-00d8-4b29-887d-dd0d04d0434c",
+      "target": "645286c7-10db-4c4d-bd79-854a19fdea9a"
+    },
+    {
+      "id": "9304bcba-3f4c-44f1-9e22-02e6245fb892",
+      "type": "istar.DependencyLink",
+      "source": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a",
+      "target": "1b98d9e5-00d8-4b29-887d-dd0d04d0434c"
+    },
+    {
+      "id": "48bd198a-e88a-4890-b948-6bbe8cbfa73a",
+      "type": "istar.DependencyLink",
+      "source": "4f2bf699-0e52-4b58-8897-5e7b618c1451",
+      "target": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a"
+    },
+    {
+      "id": "eb8ac20b-c28d-4b8d-9fb2-b8f1dca2b032",
+      "type": "istar.DependencyLink",
+      "source": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91",
+      "target": "4f2bf699-0e52-4b58-8897-5e7b618c1451"
+    },
+    {
+      "id": "e26c6c60-9391-44cd-8a45-37eea07d1a35",
+      "type": "istar.DependencyLink",
+      "source": "e1bfc612-7c92-4f53-965b-81b1c426eb2f",
+      "target": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a"
+    },
+    {
+      "id": "ad977923-06cb-49d1-ad53-6b6652b54492",
+      "type": "istar.DependencyLink",
+      "source": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91",
+      "target": "e1bfc612-7c92-4f53-965b-81b1c426eb2f"
+    },
+    {
+      "id": "16f014ea-36aa-4180-ae8d-cc83c88f04ff",
+      "type": "istar.DependencyLink",
+      "source": "a9014a3b-837a-423f-9852-a7edf99b5e40",
+      "target": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91"
+    },
+    {
+      "id": "ff9c99c0-8bc5-4b92-b296-402e7d19e37c",
+      "type": "istar.DependencyLink",
+      "source": "a80a95e6-f9fc-4bda-8c64-f4605e72967f",
+      "target": "a9014a3b-837a-423f-9852-a7edf99b5e40"
+    },
+    {
+      "id": "447ac63f-a822-4e91-ba95-5cb089aed0e2",
+      "type": "istar.DependencyLink",
+      "source": "55269566-0ec0-4bde-94c4-7272fddf0e44",
+      "target": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91"
+    },
+    {
+      "id": "ace50303-f2e9-4251-a31a-445412049228",
+      "type": "istar.DependencyLink",
+      "source": "a80a95e6-f9fc-4bda-8c64-f4605e72967f",
+      "target": "55269566-0ec0-4bde-94c4-7272fddf0e44"
+    }
+  ],
+  "display": {
+    "55269566-0ec0-4bde-94c4-7272fddf0e44": {
+      "width": 105.60000610351562,
+      "height": 50.30000305175781
+    },
+    "a9014a3b-837a-423f-9852-a7edf99b5e40": {
+      "width": 100.60000610351562,
+      "height": 48.30000305175781
+    },
+    "4f2bf699-0e52-4b58-8897-5e7b618c1451": {
+      "width": 114.60000610351562,
+      "height": 53.30000305175781
+    },
+    "356ec620-e309-4ca3-92ed-72cd7fa31e06": {
+      "width": 101.60000610351562,
+      "height": 55.30000305175781
+    },
+    "b9c975bd-d530-4978-b1e0-9f09fb945e67": {
+      "width": 106.60000610351562,
+      "height": 49.80000305175781
+    },
+    "f175d89f-b4f7-4ba6-9358-ef9fe377524a": {
+      "width": 96.60000610351562,
+      "height": 53.80000305175781
+    },
+    "dea9d02c-febe-42bd-bd3a-a8a2b44bb504": {
+      "width": 99.60000610351562,
+      "height": 48.30000305175781
+    },
+    "71d58a30-ad1f-4beb-8015-ccf01f0fae0c": {
+      "width": 103.60000610351562,
+      "height": 46.30000305175781
+    },
+    "920008da-fcf9-4279-a4a1-21b07d083455": {
+      "vertices": [
+        {
+          "x": 667,
+          "y": 91
+        }
+      ]
+    },
+    "7f86a271-fcfa-4aaa-b189-e6b81bd79b40": {
+      "vertices": [
+        {
+          "x": 827,
+          "y": 279
+        }
+      ]
+    },
+    "7f2141c7-955f-46bf-b4d4-a8de77711681": {
+      "vertices": [
+        {
+          "x": 159,
+          "y": 216
+        },
+        {
+          "x": 142,
+          "y": 246
+        },
+        {
+          "x": 117,
+          "y": 288
+        }
+      ]
+    },
+    "b8985127-8d6a-4094-8476-ef4a1478ca63": {
+      "vertices": [
+        {
+          "x": 335,
+          "y": 92
+        }
+      ]
+    },
+    "65e7e1d1-c609-4694-9822-fa08fb66a19f": {
+      "vertices": [
+        {
+          "x": 867,
+          "y": 519
+        }
+      ]
+    },
+    "9304bcba-3f4c-44f1-9e22-02e6245fb892": {
+      "vertices": [
+        {
+          "x": 855,
+          "y": 601
+        }
+      ]
+    },
+    "48bd198a-e88a-4890-b948-6bbe8cbfa73a": {
+      "vertices": [
+        {
+          "x": 637,
+          "y": 849
+        }
+      ]
+    },
+    "eb8ac20b-c28d-4b8d-9fb2-b8f1dca2b032": {
+      "vertices": [
+        {
+          "x": 325,
+          "y": 839
+        }
+      ]
+    },
+    "16f014ea-36aa-4180-ae8d-cc83c88f04ff": {
+      "vertices": [
+        {
+          "x": 115,
+          "y": 649
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 12 Jan 2026 20:05:51 GMT",
+  "diagram": {
+    "width": 1550,
+    "height": 925,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

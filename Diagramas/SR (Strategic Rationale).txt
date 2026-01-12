@@ -1,0 +1,271 @@
+{
+  "actors": [
+    {
+      "id": "a80a95e6-f9fc-4bda-8c64-f4605e72967f",
+      "text": "Persona con Discapacidad",
+      "type": "istar.Actor",
+      "x": 102,
+      "y": 112,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "4f924f57-aaca-4792-a80d-89074f080cdd",
+          "text": "Evitar corte de servicio esencial",
+          "type": "istar.Goal",
+          "x": 251,
+          "y": 115,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8f771520-714f-4ed7-9d33-831533a663a4",
+          "text": "Solicitar asistencia a tiempo",
+          "type": "istar.Task",
+          "x": 107,
+          "y": 208,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1260546e-3ada-4a99-bfc6-a59b09cd501c",
+          "text": "Proporcionar información veraz",
+          "type": "istar.Task",
+          "x": 283,
+          "y": 214,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "47ad20f1-3d7d-4ffc-95b3-5e736c3adc91",
+      "text": "Intercesor",
+      "type": "istar.Role",
+      "x": 564,
+      "y": 116,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "5607b9a0-2188-41f1-b6ea-97d70b63bfa4",
+          "text": "Mediar solución",
+          "type": "istar.Goal",
+          "x": 803,
+          "y": 117,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e6504b5b-2b75-4c48-a136-ca89bba61bbf",
+          "text": "Validar caso",
+          "type": "istar.Task",
+          "x": 570.5,
+          "y": 194,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b583db9b-7669-48b0-8f87-d2734c96f417",
+          "text": "Traducir necesidad",
+          "type": "istar.Task",
+          "x": 685,
+          "y": 196,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0bda00e1-cb76-4fe6-9519-54307019434e",
+          "text": "Negociar alternativas",
+          "type": "istar.Task",
+          "x": 795,
+          "y": 196,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "55b41cbc-8e2a-4c0b-bb2e-1f104364728a",
+      "text": "Curador Vital",
+      "type": "istar.Role",
+      "x": 134,
+      "y": 392,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "0776dd16-f80c-46be-bffc-8b02b6fcf875",
+          "text": "Garantizar equidad",
+          "type": "istar.Goal",
+          "x": 289,
+          "y": 397,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f0f2d5ee-c39a-4696-8c20-55a4c76fa772",
+          "text": "Evaluar caso",
+          "type": "istar.Task",
+          "x": 135,
+          "y": 492,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b14f555f-c1a3-4271-a4f4-7d0fe2e72c05",
+          "text": "Emitir directriz ética",
+          "type": "istar.Task",
+          "x": 255,
+          "y": 480,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "645286c7-10db-4c4d-bd79-854a19fdea9a",
+      "text": "Proveedor",
+      "type": "istar.Actor",
+      "x": 470,
+      "y": 387,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "4f0e7ada-9ea6-4e06-b9ec-6559a519bcf3",
+          "text": "Ofrecer alternativas de pago",
+          "type": "istar.Task",
+          "x": 489,
+          "y": 478,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "700925aa-5099-46ea-a3ff-5578f857803f",
+          "text": "Ejecutar protocolo de cobranza",
+          "type": "istar.Task",
+          "x": 655,
+          "y": 480,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "66badc86-7715-410f-87b7-e2de74505221",
+          "text": "Ganar plata (Mantener operación rentable)",
+          "type": "istar.Goal",
+          "x": 635,
+          "y": 387,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "41d80f4d-815f-4f74-8e7b-8524959edeee",
+      "text": "Gobierno",
+      "type": "istar.Actor",
+      "x": 836,
+      "y": 385,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "729c9c4e-5d7b-4fcd-b480-eacb3b269405",
+          "text": "Normar",
+          "type": "istar.Task",
+          "x": 855,
+          "y": 502,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e9e7c702-f2b3-424a-9a8c-49adb58cdc61",
+          "text": "Auditar cumplimiento",
+          "type": "istar.Task",
+          "x": 995,
+          "y": 496,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "85df2a62-4f82-4dee-84a8-d8ef52431e14",
+          "text": "Que el proveedor gane plata (Proteger población)",
+          "type": "istar.Goal",
+          "x": 963,
+          "y": 385,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [],
+  "display": {
+    "4f924f57-aaca-4792-a80d-89074f080cdd": {
+      "width": 108.60000610351562,
+      "height": 55.30000305175781
+    },
+    "8f771520-714f-4ed7-9d33-831533a663a4": {
+      "width": 115.10000610351562,
+      "height": 56.30000305175781
+    },
+    "1260546e-3ada-4a99-bfc6-a59b09cd501c": {
+      "width": 121.10000610351562,
+      "height": 46.30000305175781
+    },
+    "b14f555f-c1a3-4271-a4f4-7d0fe2e72c05": {
+      "width": 105.10000610351562,
+      "height": 46.30000305175781
+    },
+    "4f0e7ada-9ea6-4e06-b9ec-6559a519bcf3": {
+      "width": 103.10000610351562,
+      "height": 56.30000305175781
+    },
+    "700925aa-5099-46ea-a3ff-5578f857803f": {
+      "width": 100.60000610351562,
+      "height": 50.30000305175781
+    },
+    "66badc86-7715-410f-87b7-e2de74505221": {
+      "width": 122.60000610351562,
+      "height": 55.30000305175781
+    },
+    "85df2a62-4f82-4dee-84a8-d8ef52431e14": {
+      "width": 104.60000610351562,
+      "height": 55.80000305175781
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 12 Jan 2026 19:21:03 GMT",
+  "diagram": {
+    "width": 1154,
+    "height": 700,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
