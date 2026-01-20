@@ -201,7 +201,7 @@ export default function GestionarNegociacion() {
             border: '1px solid #c00'
           }}
         >
-          <h3 style={{ color: '#c00' }}>⚠️ Intentos agotados</h3>
+          <h3 style={{ color: '#c00' }}> Intentos agotados</h3>
           <p>Se han agotado los 3 intentos. El caso debe escalarse al Curador Vital.</p>
           <button
             style={{
