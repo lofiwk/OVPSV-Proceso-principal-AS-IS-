@@ -70,7 +70,6 @@ export class RequestsService {
     await this.obtenerSolicitud(solicitudId);
 
     const nuevaNegociacion = new this.negociacionModel({
-      // ✅ IMPORTANTE: en el schema se llama solicitudProteccionId
       solicitudProteccionId: solicitudId,
       intercesor: datos.intercesor,
       propuestaEnviada: datos.propuesta,
@@ -88,7 +87,7 @@ export class RequestsService {
   // Obtener negociaciones de una solicitud
   async obtenerNegociaciones(solicitudId: string): Promise<Negociacion[]> {
     return this.negociacionModel
-      .find({ solicitudProteccionId: solicitudId }) // ✅ coherente con el schema
+      .find({ solicitudProteccionId: solicitudId })
       .sort({ createdAt: -1 })
       .exec();
   }
